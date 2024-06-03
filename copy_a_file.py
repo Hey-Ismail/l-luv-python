@@ -12,5 +12,6 @@ try:
     shutil.copy("text.txt", path)  # src file and another one is destination
 except FileNotFoundError:
     print("The location where you want to copy doesn't exist")
+
 else:
     print("Successfully copied !!!")
